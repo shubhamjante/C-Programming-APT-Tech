@@ -2,7 +2,7 @@
 
 int main()
 {
-    int month;
+    int month, year;
 
     /* Input month number from user */
     printf("Enter month number(1-12): ");
@@ -13,8 +13,10 @@ int main()
         case 1: 
             printf("31 days");
             break;
-        case 2: 
-            printf("28/29 days");
+        case 2:
+            // printf("28/29 days");
+            printf("what is the year?");
+            scanf("%d", &year);
             break;
         case 3: 
             printf("31 days");

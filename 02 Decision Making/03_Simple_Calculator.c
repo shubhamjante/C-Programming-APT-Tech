@@ -14,7 +14,7 @@ int main()
   switch (operator)
   {
     case '+':
-      printf("%.1lf + %.1lf = %.1lf", first, second, first + second);
+      printf("%.1lf + %.1lf = %.2lf", first, second, first + second);
       break;
     case '-':
       printf("%.1lf - %.1lf = %.1lf", first, second, first - second);
