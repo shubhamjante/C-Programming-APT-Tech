@@ -3,7 +3,7 @@
 int main()
 {
     int i = 1;
-    while(i <= );
+    while(i <= 10);
     {
         printf("%d\n", i);
         i += 1;
